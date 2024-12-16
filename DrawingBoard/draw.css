@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    color: wheat;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+#toolBar {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    background-color: black;
+}
+
+#toolBar * {
+    margin-bottom: 5px;
+}
+
+#toolBar.label {
+    font-size: 12px;
+}
+
+#toolBar.input {
+    width: 100%;
+}
+
+/*needs resizing to fit full page correctly. currently zooming in with CSS, with out hight is not filling window
+
+#canvas {
+    height: 100%;
+}
+
+*/
